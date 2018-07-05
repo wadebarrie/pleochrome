@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101740830-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-101740830-3');
+</script>
+
+</head>
+<title>Pleochrome Creative</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Nunito+Sans:300" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "EB Garamond", serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("brutal.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Pleochrome Creative</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"></i> THE TEAM</a>
+      <a href="#services" class="w3-bar-item w3-button"></i> SERVICES</a>
+      <a href="#contact" class="w3-bar-item w3-button"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">THE TEAM</a>
+  <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Thank you!</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Good design is good business</span><br>
+    <span class="w3-large" style="padding:10px">Your message has been sent.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">What we do</a></p>
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:10px 20px">
+    <a href="http://www.facebook.com/pleochrome" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity" style="color:#757575"></i></a>
+    <a href="http://www.instagram.com/pleo.chrome" target="_blank"><i class="fa fa-instagram w3-hover-opacity" style="color:#757575"></i></a>
+    <a href="http://www.twitter.com/pleochrome" target="_blank"><i class="fa fa-twitter w3-hover-opacity" style="color:#757575"></i></a>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT PLEOCHROME</h3>
+  <p class="w3-center w3-large">Meeting all your design needs</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-code w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Web Design</p>
+      <p>We build responsive, dynamic, and brand inspired websites that are both easy to navigate and mobile-friendly</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-camera-retro w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Brand Identity</p>
+      <p>Let us create a unique and impactful brand identity for your business</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-object-group w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Graphic Design</p>
+      <p>We love to work on all sorts of designs&mdash;functional, artistic, print, digital, graphics, etc</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-edit w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Writing & Editing</p>
+      <p>Need some help with your documents? We will edit, proof, & finesse for you</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Team Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who run this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+
+
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="abbie.gif" alt="Abbie" style="width:100%">
+        <div class="w3-container">
+          <h3>Abbie Wright</h3>
+          <p class="w3-opacity">Cheif Idea Officer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><a href="mailto:abbie@pleochrome.ca" button class="w3-button w3-light-grey w3-block"> Contact</button></p></a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="wade1.jpg" alt="Wade" style="width:100%">
+        <div class="w3-container">
+          <h3>Wade Barrie</h3>
+          <p class="w3-opacity">Developer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><a href="mailto:wade@pleochrome.ca" button class="w3-button w3-light-grey w3-block"> Contact</button></p></a>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+<!-- Promo Section "Banner quote or something" -->
+<div class="w3-container w3-row w3-center w3-aqua w3-padding-64">
+
+    <span class="w3-xxlarge">Color does not add a pleasant quality to design&mdash;it reinforces it.</span>
+    <br><em>- Pierre Bonnard</em>
+  </div>
+  </div>
+</div>
+
+<!-- Services Section -->
+<div class="w3-container" style="padding:128px 16px" id="services">
+  <h3 class="w3-center">SERVICES</h3>
+  <p class="w3-center w3-large">What we do</p>
+
+<ul><li>Web Development</li>
+  <li>UX/UI Design</li>
+  <li>Brand Identity</li>
+  <li>Graphic Design</li>
+  <li>Eleifend netus venenatis ante elementum egestas, nascetur commodo cubilia.</li>
+  <li>Eleifend netus venenatis ante elementum egestas, nascetur commodo cubilia.</li>
+  <li>Eleifend netus venenatis ante elementum egestas, nascetur commodo cubilia.</li>
+  <li>Eleifend netus venenatis ante elementum egestas, nascetur commodo cubilia.</li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills</h3>
+      <p>Graphic design, visual & brand identity, marketing, logos, and social media/web graphics.  </p>
+      <p>We are knowledgeable with HTML5, CSS, PHP, JavaScript, WordPress, jQuery, Microsoft, and Adobe Suites. </p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-edit w3-margin-right"></i>Writing & Editing</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-code w3-margin-right"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Adobe Suite</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials Section -->
+<div class="w3-container w3-center w3-aqua" style="padding:128px 16px" id="#">
+  <h3>Testimonials</h3>
+  <p class="w3-large">What our clients are saying about us</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-padding-16"><em>Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Ut luctus malesuada augue sit amet faucibus. In dictum viverra metus,
+          eu pulvinar purus posuere dignissim.<em><br>- Patty Jones</li>
+          </li>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-padding-16"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Ut luctus malesuada augue sit amet faucibus. In dictum viverra metus,
+          eu pulvinar purus posuere dignissim.</em><br>- Eric M.
+      </li>
+    </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-padding-16"><em>Lorem ipsum dolor sit amet, consectetur
+           adipiscing elit. Ut luctus malesuada augue sit amet faucibus.
+           In dictum viverra metus, eu pulvinar purus posuere dignissim.</em>
+           <br>- Marc Wicks, Whiskey Six BBQ</li>
+         </li>
+       </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+
+
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-compass fa-fw w3-xxlarge w3-margin-right"></i> Vancouver, BC</p>
+      <p><i class="fa fa-mobile fa-fw w3-xxlarge w3-margin-right"></i> Phone: (778) 928-9054</p>
+      <p><i class="fa fa-envelope-o fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@pleochrome.ca</p>
+      <br>
+      <form method="post" name="contact2" action="contact2.php">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="http://www.facebook.com/pleochrome" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity" style="color:#757575"></i></a>
+    <a href="http://www.instagram.com/pleo.chrome" target="_blank"><i class="fa fa-instagram w3-hover-opacity" style="color:#757575"></i></a>
+    <a href="http://www.twitter.com/pleochrome" target="_blank"><i class="fa fa-twitter w3-hover-opacity" style="color:#757575"></i></a>
+  </div>
+  <p><small>Pleochrome Creative &#x2758 Vancouver, BC &#x2758 (778) 928-9054 &#x2758 <a href="mailto:info@pleochrome.ca" style="text-decoration:none; color:#ffffff">info@pleochrome.ca</a> &#x2758 Copyright &#169; Pleochrome.ca 2017 </p></small>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
